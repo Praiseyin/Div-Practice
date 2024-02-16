@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color:dimgrey;
+    padding: 10px;
+    margin: 50;
+    display: flex;
+    flex-direction:space-between;
+    align-items: flex-start;
+}
+
+.item {
+    background-color: crimson;
+    color:rgb(246, 242, 242);
+    font-size: 35px;
+    padding: 20 px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.item-1 {
+}
+
+.item-2 {
+}
+
+.item-3 {
+}
+
+.item-4 {
+}
+
+.item-5 {
+    flex-basis: 75%;
+}
